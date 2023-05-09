@@ -20,6 +20,11 @@ const MarketPricesChart = () => {
     xAxis: {
       categories: Object.keys(prices),
     },
+    series: [
+      {
+        data: Object.values(prices),
+      },
+    ],
   };
 
   return <HighchartsReact highcharts={Highcharts} options={options} />;
