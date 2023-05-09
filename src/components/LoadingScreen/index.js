@@ -26,6 +26,8 @@ const LoadingScreen = () => {
         width="145px"
         position="absolute"
         padding="5px"
+        border="1px solid"
+        borderColor="rgb(30, 144, 255, 0.4)"
       >
         <Typography fontWeight={500} variant="h6">
           Loading

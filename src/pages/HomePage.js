@@ -9,7 +9,12 @@ const HomePage = () => {
 
   return (
     <Stack maxWidth="700px" gap={2} alignItems="center">
-      <Typography variant="h4" textAlign="center" color="primary">
+      <Typography
+        fontWeight="bold"
+        variant="h5"
+        textAlign="center"
+        color="primary"
+      >
         Explore the world of cryptocurrencies and stay up-to-date with the
         latest market trends.
       </Typography>

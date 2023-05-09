@@ -1,3 +1,3 @@
 export const queryKeys = {
-  marketPrices: "market-prices",
+  marketDepth: "market-depth",
 };
