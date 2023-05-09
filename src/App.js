@@ -1,7 +1,12 @@
-import { Typography } from "@mui/material";
+import Router from "./routes";
+import ThemeProvider from "./theme";
 
 function App() {
-  return <div>App</div>;
+  return (
+    <ThemeProvider>
+      <Router />
+    </ThemeProvider>
+  );
 }
 
 export default App;
