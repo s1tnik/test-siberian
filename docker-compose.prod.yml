@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  app:
+    image: <image-name>:<tag>
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app

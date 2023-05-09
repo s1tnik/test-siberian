@@ -1,0 +1,12 @@
+# ignore node_modules folder
+node_modules
+
+# ignore any build artifacts
+build
+
+# ignore local environment files
+.env*
+
+# ignore any logs
+logs
+*.log
