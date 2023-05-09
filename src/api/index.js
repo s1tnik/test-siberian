@@ -6,6 +6,7 @@ const apiClient = axios.create({
     process.env.REACT_APP_ENV === "development" ? "" : API_CONFIG.BASE_URL,
 });
 
-export const getMarketPrices = () => {
-  return apiClient.get("/markets/prices");
+export const fetchMarketPrices = async (limit = 10) => {
+  const response = await apiClient.get(`/markets/prices?limit=${limit}`);
+  return response.data.result;
 };

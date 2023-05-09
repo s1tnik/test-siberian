@@ -1,8 +1,11 @@
+import { Stack } from "@mui/material";
+import MarketPricesChart from "../charts/MarketPricesChart";
+
 const DashboardPage = () => {
   return (
-    <div>
-      <h1>DashboardPage</h1>
-    </div>
+    <Stack>
+      <MarketPricesChart />
+    </Stack>
   );
 };
 
